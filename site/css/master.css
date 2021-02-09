@@ -1,0 +1,75 @@
+body {
+	font-family: "Roboto Medium", "Arial", sans-serif;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 1.25rem;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar .container a {
+    color: white;
+}
+
+.navbar .container a:hover {
+    color: #EFBE87;
+}
+
+.logo, .slide {
+    background-color: #0A0603;
+}
+
+.navbar {
+    background-color: #6B411B;
+    height: 56px;
+}
+
+.banner, .produtos {
+    background-color: #FCD9B3;
+}
+
+.box {
+    background-color: #EFBE87;
+}
+
+.container {
+	margin: 0 auto;
+    width: 1110px;
+}
+
+.slide {
+    padding-bottom: 30px;
+}
+
+.banner, .box, .produtos {
+    padding: 30px 0;
+}
+
+.navbar .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 18px;
+}
+
+.box .container {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.box img {
+    z-index: 0;
+}
+
+.box .selo-promocional {
+    background-image: url(../img/box-selo-produto_desktop.jpg);
+    z-index: 2;
+}
