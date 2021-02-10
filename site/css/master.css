@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
 body {
-	font-family: "Roboto Medium", "Arial", sans-serif;
+	font: 500 1rem 'Roboto', sans-serif;
     text-transform: uppercase;
 }
 
 h2 {
-    font-size: 1.25rem;
+    font: 700 1.25rem 'Roboto', sans-serif;
     margin-bottom: 30px;
     text-align: center;
 }
@@ -13,34 +15,40 @@ a {
     text-decoration: none;
 }
 
+img {
+    width: 100%;
+}
+
+.container {
+    line-height: 0;
+	margin: 0 auto;
+    padding: 0;
+    width: 1110px;
+}
+
 .navbar .container a {
     color: white;
 }
 
 .navbar .container a:hover {
-    color: #EFBE87;
+    color: #e4ac61;
 }
 
 .logo, .slider {
-    background-color: #0A0603;
+    background-color: #0a0603;
 }
 
 .navbar {
-    background-color: #6B411B;
+    background-color: #614323;
     height: 56px;
 }
 
 .banner, .produtos {
-    background-color: #FCD9B3;
+    background-color: #f2d8b2;
 }
 
 .box {
-    background-color: #EFBE87;
-}
-
-.container {
-	margin: 0 auto;
-    width: 1110px;
+    background-color: #e4ac61;
 }
 
 .slider {
@@ -48,28 +56,32 @@ a {
 }
 
 .banner, .box, .produtos {
-    padding: 30px 0;
+    padding-bottom: 30px;
+    padding-top: 30px;
 }
 
 .navbar .container {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    padding: 18px;
+    justify-content: space-between;
 }
 
 .box .container {
-    align-items: center;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.box img {
-    z-index: 0;
-}
+/* .box a {
+    border: 4px solid white;
+    width: 400px;
+    height: 400px;
+} */
 
-.box .selo-promocional {
+.selo-promocional{
     background-image: url(../img/box-selo-produto_desktop.jpg);
-    z-index: 2;
+    height: 406px;
+    margin-top: -400px;
+    position: absolute;
+    width: 356px;
 }
