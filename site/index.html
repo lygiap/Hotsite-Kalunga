@@ -67,17 +67,32 @@
 
         <section class="box">
             <div class="container">
-                <div class="box-01">
-                    <a href="" class="botao-comprar"><img src="img/box-1-produto_desktop.jpg" alt="Caixa promocional do produto Teclado K480 Bluetooth da Logitech"></a>
-                    <div class="selo-promocional"></div>
+                <div class="box-item">
+                    <img src="img/box-1-produto_desktop.jpg" alt="Caixa promocional do produto Teclado K480 Bluetooth da Logitech">
+
+                    <div class="bg-button"></div>
+
+                    <div class="selo-promo" onmouseover="mouseOver0()" onmouseout="mouseOut0()">
+                        <button type="button" class="btn btn-outline-primary" name="button">Ver Mais</button>
+                    </div>
                 </div>
-                <div class="box-02">
-                    <a href="" class="botao-comprar"><img src="img/box-2-produto_desktop.jpg" alt="Caixa promocional do produto Smartphone Zenfone Max da Asus"></a>
-                    <div class="selo-promocional"></div>
+                <div class="box-item">
+                    <img src="img/box-2-produto_desktop.jpg" alt="Caixa promocional do produto Smartphone Zenfone Max da Asus">
+
+                    <div class="bg-button"></div>
+
+                    <div class="selo-promo" onmouseover="mouseOver1()" onmouseout="mouseOut1()">
+                        <button type="button" class="btn btn-outline-primary" name="button">Ver Mais</button>
+                    </div>
                 </div>
-                <div class="box-03">
-                    <a href="" class="botao-comprar"><img src="img/box-3-produto_desktop.jpg" alt="Caixa promocional do produto Headphone Bluetooth da Elg"></a>
-                    <div class="selo-promocional"></div>
+                <div class="box-item">
+                    <img src="img/box-3-produto_desktop.jpg" alt="Caixa promocional do produto Headphone Bluetooth da Elg">
+
+                    <div class="bg-button"></div>
+
+                    <div class="selo-promo" onmouseover="mouseOver2()" onmouseout="mouseOut2()">
+                        <button type="button" class="btn btn-outline-primary" name="button">Ver Mais</button>
+                    </div>
                 </div>
             </div>
         </section>
@@ -90,6 +105,63 @@
         </section>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+
+        <script>
+
+            // Função mouseOver
+
+            function mouseOver0() {
+                var x = document.getElementsByClassName("bg-button");
+                x[0].style.visibility = "visible";
+
+                var x = document.getElementsByClassName("btn");
+                x[0].style.visibility = "visible";
+            }
+
+            function mouseOver1() {
+                var x = document.getElementsByClassName("bg-button");
+                x[1].style.visibility = "visible";
+
+                var x = document.getElementsByClassName("btn");
+                x[1].style.visibility = "visible";
+            }
+
+            function mouseOver2() {
+                var x = document.getElementsByClassName("bg-button");
+                x[2].style.visibility = "visible";
+
+                var x = document.getElementsByClassName("btn");
+                x[2].style.visibility = "visible";
+            }
+
+
+            // Função mouseOut
+
+            function mouseOut0() {
+                var x = document.getElementsByClassName("bg-button");
+                x[0].style.visibility = "hidden";
+
+                var x = document.getElementsByClassName("btn");
+                x[0].style.visibility = "hidden";
+            }
+
+            function mouseOut1() {
+                var x = document.getElementsByClassName("bg-button");
+                x[1].style.visibility = "hidden";
+
+                var x = document.getElementsByClassName("btn");
+                x[1].style.visibility = "hidden";
+            }
+
+            function mouseOut2() {
+                var x = document.getElementsByClassName("bg-button");
+                x[2].style.visibility = "hidden";
+
+                var x = document.getElementsByClassName("btn");
+                x[2].style.visibility = "hidden";
+            }
+
+        </script>
 
     </body>
 </html>
