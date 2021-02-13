@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
 
 body {
-	font: 500 1rem 'Roboto', sans-serif;
+	font: 400 1rem 'Roboto', sans-serif;
     text-transform: uppercase;
 }
 
@@ -32,7 +32,8 @@ img {
 }
 
 .navbar .container a:hover {
-    color: #e4ac61;
+	color: white;
+	text-shadow: 0px 0px 8px #e4ac61;
 }
 
 .logo, .slider {
@@ -42,6 +43,19 @@ img {
 .navbar {
     background-color: #614323;
     height: 56px;
+}
+
+.carousel-indicators {
+	margin-bottom: -14px;
+}
+
+.carousel-indicators li {
+	width: 6px;
+	height: 6px;
+	background-color: white;
+	border-top: 0px solid transparent;
+	border-bottom: 0px solid transparent;
+	border-radius: 3px;
 }
 
 .banner, .produtos {
@@ -74,7 +88,7 @@ img {
 }
 
 .bg-button {
-    background-color: rgba(0, 0, 0, .5);
+    background-color: rgba(242, 216, 178, .2);
     height: 400px;
     margin-top: -400px;
     position: absolute;
@@ -108,7 +122,8 @@ img {
 }
 
 .btn:hover {
-    background-color: white;
-    border-color: white;
-    color: black;
+    background-color: #614323;
+    border-color: #614323;
+    color: white;
+	font-weight: 400;
 }
