@@ -20,21 +20,7 @@ img {
     width: 100%;
 }
 
-.container {
-    line-height: 0;
-	margin: 0 auto;
-    padding: 0;
-    width: 1110px;
-}
-
-.navbar .container a {
-    color: white;
-}
-
-.navbar .container a:hover {
-	color: white;
-	text-shadow: 0px 0px 8px #e4ac61;
-}
+/* - BACKGROUND COLORS - */
 
 .logo, .slider {
     background-color: #0a0603;
@@ -42,20 +28,6 @@ img {
 
 .navbar {
     background-color: #614323;
-    height: 56px;
-}
-
-.carousel-indicators {
-	margin-bottom: -14px;
-}
-
-.carousel-indicators li {
-	width: 6px;
-	height: 6px;
-	background-color: white;
-	border-top: 0px solid transparent;
-	border-bottom: 0px solid transparent;
-	border-radius: 3px;
 }
 
 .banner, .produtos {
@@ -64,6 +36,28 @@ img {
 
 .box {
     background-color: #e4ac61;
+}
+
+/* --------------------- */
+
+/* ---- CONTAINERS ----- */
+
+/* Como este trabalho não aborda mobile first e o Bootstrap foi construído nessa abordagem,
+estou editando a classe container do Bootstrap para a técnica inversa, assim fica mais fácil
+respeitar o width das imagens conforme desenhado no wireframe do teste */
+.container,
+.container-fluid,
+.container-xxl,
+.container-xl,
+.container-lg,
+.container-md,
+.container-sm {
+	/* border: 1px solid red; */
+	line-height: 0;
+	margin-left: auto;
+	margin-right: auto;
+    padding: 0;
+	width: 100%;
 }
 
 .slider {
@@ -75,16 +69,122 @@ img {
     padding-top: 30px;
 }
 
-.navbar .container {
+.box .container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.box .container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+/* --------------------- */
+
+/* ------ NAVBAR ------- */
+
+.navbar {
+	align-items: center; /* alinhando o container */
+	display: flex;
+	flex-wrap: wrap;
+	height: 56px;
+	padding-bottom: 0;
+	padding-top: 0;
+	z-index: 3;
+}
+
+.navbar .container,
+.navbar .container-fluid,
+.navbar .container-sm,
+.navbar .container-md,
+.navbar .container-lg,
+.navbar .container-xl,
+.navbar .container-xxl {
+	align-items: center;
+	background-color: rgba(97,67,35,.95);
+	display: flex;
+	flex-wrap: inherit;
+	justify-content: center;
+}
+
+.navbar .container-fluid .navbar-collapse {
+	padding-left: 2rem;
+	padding-right: 2rem;
+}
+
+.navbar-toggler {
+	align-items: center;
+	background-color: transparent;
+	border: 0;
+	color: rgba(255,255,255,.8);
+	display: flex;
+	font: 400 1rem 'Roboto', sans-serif;
+	height: 56px;
+	justify-content: center;
+	line-height: 0;
+	padding: 0;
+	text-transform: uppercase;
+	transition: box-shadow 0.15s ease-in-out;
+	width: 100%;
+}
+
+.navbar-toggler:hover .navbar-toggler-icon {
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+			filter: drop-shadow(0 0 8px #e4ac61);
+	-webkit-filter: drop-shadow(0 0 8px #e4ac61);
+}
+
+.navbar-toggler:hover .navbar-toggler-text {
+	color: rgba(255,255,255,1);
+	text-shadow: 0 0 8px #e4ac61;
+}
+
+.navbar-toggler:focus {
+	box-shadow: none;
+}
+
+.navbar-toggler-icon {
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, .8%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	display: inline-block;
+	height: 1.5em;
+	vertical-align: middle;
+	width: 1.5em;
+}
+
+.navbar-toggler-text {
+	padding-left: 0.75rem;
+	padding-top: 2px;
+}
+
+.navbar-collapse {
+	align-items: center;
+	padding-left: 1rem;
+	width: 100%;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: rgba(255,255,255,1);
+	line-height: 1rem;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+	color: white;
+	text-shadow: 0 0 8px #e4ac61;
+}
+
+/* --------------------- */
+
+
+.carousel-indicators {
+	margin-bottom: -14px;
+}
+
+.carousel-indicators li {
+	background-color: white;
+	border-bottom: 0px solid transparent;
+	border-radius: 3px;
+	border-top: 0px solid transparent;
+	height: 6px;
+	width: 6px;
 }
 
 .bg-button {
