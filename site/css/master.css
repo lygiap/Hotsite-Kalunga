@@ -96,16 +96,12 @@ respeitar o width das imagens conforme desenhado no wireframe do teste */
 .navbar .container-lg,
 .navbar .container-xl,
 .navbar .container-xxl {
+	/* border: 1px solid red; */
 	align-items: center;
 	background-color: rgba(97,67,35,.95);
 	display: flex;
 	flex-wrap: inherit;
 	justify-content: center;
-}
-
-.navbar .container-fluid .navbar-collapse {
-	padding-left: 2rem;
-	padding-right: 2rem;
 }
 
 .navbar-toggler {
@@ -155,18 +151,27 @@ respeitar o width das imagens conforme desenhado no wireframe do teste */
 	padding-top: 2px;
 }
 
-.navbar-collapse {
+.navbar .container-fluid .navbar-collapse {
+	/* border: 1px solid red; */
 	align-items: center;
-	padding-left: 1rem;
+	padding-left: 2.75rem;
+	padding-right: 0 !important;
 	width: 100%;
 }
 
-.navbar-nav .nav-item .nav-link {
-    color: rgba(255,255,255,1);
-	line-height: 1rem;
+.navbar-nav {
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
 }
 
-.navbar-nav .nav-item .nav-link:hover {
+.navbar-nav .nav-link {
+    color: rgba(255,255,255,1);
+	line-height: 1rem;
+	padding-right: 2.75rem;
+}
+
+.navbar-nav .nav-link:hover {
 	color: white;
 	text-shadow: 0 0 8px #e4ac61;
 }
