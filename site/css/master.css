@@ -64,15 +64,13 @@ respeitar o width das imagens conforme desenhado no wireframe do teste */
     padding-bottom: 30px;
 }
 
-.banner, .box, .produtos {
-    padding-bottom: 30px;
+.box {
     padding-top: 30px;
 }
 
-.box .container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.banner, .produtos {
+    padding-bottom: 30px;
+    padding-top: 30px;
 }
 
 /* --------------------- */
@@ -178,7 +176,6 @@ respeitar o width das imagens conforme desenhado no wireframe do teste */
 
 /* --------------------- */
 
-
 .carousel-indicators {
 	margin-bottom: -14px;
 }
@@ -192,28 +189,11 @@ respeitar o width das imagens conforme desenhado no wireframe do teste */
 	width: 6px;
 }
 
-.bg-button {
-    background-color: rgba(242, 216, 178, .2);
-    height: 400px;
-    margin-top: -400px;
-    position: absolute;
-    visibility: hidden;
-    width: 350px;
+.box .box-item .box-img {
+	margin-bottom: 24px;
 }
 
-.selo-promo {
-    align-items: center;
-    background-image: url(../img/box-selo-produto_desktop.png);
-    display: flex;
-    flex-direction: row;
-    height: 406px;
-    justify-content: center;
-    margin-top: -400px;
-    position: absolute;
-    width: 356px;
-}
-
-.btn {
+.box .box-item .selo-promo .btn {
     border: 2px solid white;
     border-radius: 20px;
     color: white;
@@ -226,7 +206,7 @@ respeitar o width das imagens conforme desenhado no wireframe do teste */
     width: 128px;
 }
 
-.btn:hover {
+.box .box-item .selo-promo .btn:hover {
     background-color: #614323;
     border-color: #614323;
     color: white;
