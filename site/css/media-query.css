@@ -96,31 +96,51 @@ XX-Large ≥1400px
     }
 
     .box .box-item .bg-button {
-        /* border: 1px solid red; */
         background-color: rgba(242, 216, 178, .2);
         height: 342px;
-        margin-top: -342px;
+        margin-top: -366px;
         position: absolute;
         visibility: hidden;
         width: 300px;
     }
 
-    .box .box-item .selo {
+    .box .box-item .hover-button {
         /* border: 1px solid red; */
-    	height: 348px;
-        margin-bottom: 24px;
-    	margin-left: 0;
-        margin-top: -366px;
-    	width: 306px;
-    }
-
-    /*
-    .box .box-item .selo-promo {
         align-items: center;
         justify-content: center;
-        position: absolute;
+        height: 348px;
+        margin-left: 0;
+        margin-top: -366px;
+        width: 306px;
     }
-    */
+
+    .box .box-item .hover-button .selo {
+        /* border: 1px solid red; */
+        height: 348px;
+        position: absolute;
+        width: 306px;
+    }
+
+    .box .box-item .hover-button .btn {
+        border: 2px solid white;
+        border-radius: 20px;
+        color: white;
+        font: 400 1rem 'Roboto Condensed', sans-serif;
+        height: 40px;
+        margin-left: -6px;
+        margin-top: -6px;
+        text-transform: uppercase;
+        visibility: hidden;
+        width: 128px;
+        z-index: 3;
+    }
+
+    .box .box-item .hover-button .btn:hover {
+        background-color: #614323;
+        border-color: #614323;
+                filter: drop-shadow(0 0 8px #e4ac61);
+        -webkit-filter: drop-shadow(0 0 8px #e4ac61);
+    }
 }
 
 /* Extra Large Devices */
@@ -146,16 +166,18 @@ XX-Large ≥1400px
 
     .box .box-item .bg-button {
         height: 400px;
-        margin-top: -400px;
+        margin-top: -424px;
         width: 350px;
     }
 
-    .box .box-item .selo {
-        /* border: 1px solid red; */
-    	height: 406px;
-        margin-bottom: 24px;
-    	margin-left: 0;
+    .box .box-item .hover-button {
+        height: 406px;
     	margin-top: -424px;
+        width: 356px;
+    }
+
+    .box .box-item .hover-button .selo {
+    	height: 406px;
     	width: 356px;
     }
 }
