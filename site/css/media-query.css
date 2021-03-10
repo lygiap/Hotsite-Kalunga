@@ -122,9 +122,10 @@ XX-Large ≥1400px
     }
 
     .box .box-item .hover-button .btn {
-        border: 2px solid white;
+        background-color: #614323;
+        border-color: #614323;
         border-radius: 20px;
-        color: white;
+        color: #fff;
         font: 400 1rem 'Roboto Condensed', sans-serif;
         height: 40px;
         margin-left: -6px;
