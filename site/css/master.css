@@ -20,6 +20,28 @@ img {
     width: 100%;
 }
 
+header {
+	background-color: #000;
+}
+
+footer {
+	background-color: #f8f9fb;
+}
+
+header .d-xl-block {
+	margin: 0 auto;
+	width: 100%;
+}
+
+footer .d-xl-block {
+	margin: 0 auto;
+	width: 100%;
+}
+
+.btn:focus {
+	box-shadow: none;
+}
+
 /* - BACKGROUND COLORS - */
 
 .logo, .slider {

@@ -96,51 +96,57 @@ XX-Large ≥1400px
     }
 
     .box .box-item .bg-button {
-        background-color: rgba(242, 216, 178, .2);
+        align-items: center;
+        background-color: rgba(242, 216, 178, 0);
         height: 342px;
+        justify-content: center;
         margin-top: -366px;
         position: absolute;
-        visibility: hidden;
+        -webkit-transition: background 0.4s ease;
+           -moz-transition: background 0.4s ease;
+             -o-transition: background 0.4s ease;
+                transition: background 0.4s ease;
         width: 300px;
     }
 
-    .box .box-item .hover-button {
-        /* border: 1px solid red; */
-        align-items: center;
-        justify-content: center;
-        height: 348px;
-        margin-left: 0;
-        margin-top: -366px;
-        width: 306px;
+    .box .box-item .bg-button:hover,
+    .box .box-item .bg-button:focus { /* focus is for keyboard users */
+        background-color: rgba(242, 216, 178, .2);
     }
 
-    .box .box-item .hover-button .selo {
-        /* border: 1px solid red; */
-        height: 348px;
-        position: absolute;
-        width: 306px;
-    }
-
-    .box .box-item .hover-button .btn {
+    .box .box-item .bg-button .btn {
         background-color: #614323;
         border-color: #614323;
         border-radius: 20px;
         color: #fff;
         font: 400 1rem 'Roboto Condensed', sans-serif;
         height: 40px;
-        margin-left: -6px;
-        margin-top: -6px;
+        opacity: 0;
         text-transform: uppercase;
-        visibility: hidden;
+        -webkit-transition: opacity 0.4s ease;
+           -moz-transition: opacity 0.4s ease;
+             -o-transition: opacity 0.4s ease;
+                transition: opacity 0.4s ease;
         width: 128px;
         z-index: 3;
     }
 
-    .box .box-item .hover-button .btn:hover {
-        background-color: #614323;
-        border-color: #614323;
-                filter: drop-shadow(0 0 8px #e4ac61);
+    .box .box-item .bg-button:hover .btn,
+    .box .box-item .bg-button:focus .btn {
+        opacity: 1;
+    }
+
+    .box .box-item .bg-button:hover .btn:hover,
+    .box .box-item .bg-button:focus .btn:focus {
         -webkit-filter: drop-shadow(0 0 8px #e4ac61);
+                filter: drop-shadow(0 0 8px #e4ac61);
+    }
+
+    .box .box-item .bg-button .selo {
+        height: 348px;
+        margin: 4px 0 0 4px;
+        position: absolute;
+        width: 306px;
     }
 }
 
@@ -171,13 +177,7 @@ XX-Large ≥1400px
         width: 350px;
     }
 
-    .box .box-item .hover-button {
-        height: 406px;
-    	margin-top: -424px;
-        width: 356px;
-    }
-
-    .box .box-item .hover-button .selo {
+    .box .box-item .bg-button .selo {
     	height: 406px;
     	width: 356px;
     }
@@ -191,6 +191,13 @@ XX-Large ≥1400px
     .container-sm,
     .container {
         max-width: 1110px; /* editado */
+    }
+}
+
+@media (min-width: 1401px) {
+    header .d-xl-block,
+    footer .d-xl-block {
+        width: 1440px;
     }
 }
 
