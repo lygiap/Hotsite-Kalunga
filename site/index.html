@@ -11,15 +11,20 @@
     </head>
     <body>
 
-        <header></header><!--colocar a imagem do header-->
+        <header>
+            <img class="d-md-none" src="img/topo-rodape/topo_sm.jpg" alt="Topo da página">
+            <img class="d-none d-md-block d-lg-none" src="img/topo-rodape/topo_md.jpg" alt="Topo da página">
+            <img class="d-none d-lg-block d-xl-none" src="img/topo-rodape/topo_lg.jpg" alt="Topo da página">
+            <img class="d-none d-xl-block" src="img/topo-rodape/topo_x-lg.jpg" alt="Topo da página">
+        </header>
 
         <main>
-            <div class="logo"><!--encontrar o elemento html mais correto para envolver essa div-->
+            <section class="logo">
                 <div class="container">
                     <img class="d-lg-none" src="img/area-do-logo_mobile.jpg" alt="Logotipo da campanha Semana Aniversário Kalunga 50 Anos">
                     <img class="d-none d-lg-block" src="img/area-do-logo_desktop.jpg" alt="Logotipo da campanha Semana Aniversário Kalunga 50 Anos">
                 </div>
-            </div>
+            </section>
 
             <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid">
@@ -89,11 +94,9 @@
 
                         <img class="box-img d-none d-lg-block" src="img/box-1-produto_desktop.jpg" alt="Caixa promocional do produto Teclado K480 Bluetooth da Logitech">
 
-                        <div class="bg-button"></div>
-
-                        <div class="hover-button d-none d-lg-flex" onmouseover="mouseOver0()" onmouseout="mouseOut0()">
+                        <div class="bg-button d-none d-lg-flex">
                             <img class="selo" src="img/box-selo-produto.png" alt="Selo de 20% de desconto">
-                            <button class="btn btn-outline-primary" type="button" name="button">Ver Mais</button>
+                            <button class="btn" type="button" name="button">Ver Mais</button>
                         </div>
                     </div>
                     <div class="box-item">
@@ -101,11 +104,9 @@
 
                         <img class="box-img d-none d-lg-block" src="img/box-2-produto_desktop.jpg" alt="Caixa promocional do produto Smartphone Zenfone Max da Asus">
 
-                        <div class="bg-button"></div>
-
-                        <div class="hover-button d-none d-lg-flex" onmouseover="mouseOver1()" onmouseout="mouseOut1()">
+                        <div class="bg-button d-none d-lg-flex">
                             <img class="selo" src="img/box-selo-produto.png" alt="Selo de 20% de desconto">
-                            <button class="btn btn-outline-primary" type="button" name="button">Ver Mais</button>
+                            <button class="btn" type="button" name="button">Ver Mais</button>
                         </div>
                     </div>
                     <div class="box-item">
@@ -113,11 +114,9 @@
 
                         <img class="box-img d-none d-lg-block" src="img/box-3-produto_desktop.jpg" alt="Caixa promocional do produto Headphone Bluetooth da Elg">
 
-                        <div class="bg-button"></div>
-
-                        <div class="hover-button d-none d-lg-flex" onmouseover="mouseOver2()" onmouseout="mouseOut2()">
+                        <div class="bg-button d-none d-lg-flex">
                             <img class="selo" src="img/box-selo-produto.png" alt="Selo de 20% de desconto">
-                            <button class="btn btn-outline-primary" type="button" name="button">Ver Mais</button>
+                            <button class="btn" type="button" name="button">Ver Mais</button>
                         </div>
                     </div>
                 </div>
@@ -136,11 +135,14 @@
             </section>
         </main>
 
-        <footer></footer><!--colocar a imagem do footer-->
+        <footer>
+            <img class="d-md-none" src="img/topo-rodape/rodape_sm.jpg" alt="Rodapé da página">
+            <img class="d-none d-md-block d-lg-none" src="img/topo-rodape/rodape_md.jpg" alt="Rodapé da página">
+            <img class="d-none d-lg-block d-xl-none" src="img/topo-rodape/rodape_lg.jpg" alt="Rodapé da página">
+            <img class="d-none d-xl-block" src="img/topo-rodape/rodape_x-lg.jpg" alt="Rodapé da página">
+        </footer>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
-
-        <script src="js/master.js"></script>
 
     </body>
 </html>
