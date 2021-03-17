@@ -9,8 +9,8 @@ Teste prático para trabalhar no site e sistemas da empresa Kalunga, varejista e
 * Utilizar recursos como HTML5, CSS3, JavaScript/ JQuery.
 * Aplicar boas técnicas de layout responsivo e usabilidade.
 
-* **Referências:** Links inclusos no arquivo.
-* **Entrega:** 5º dia corrido pela manhã.
+**Referências:** Links inclusos no arquivo.
+**Entrega:** 5º dia corrido pela manhã.
 
 ## A Execução
 
