@@ -30,3 +30,7 @@ Deixar para fazer o HTML no último dia, realmente, não funciona. Então, se eu
 **3º Dia/ Parte 2:** Incluiria o logo e todas as imagens necessárias na página e, também, focaria nas informações de texto/ fontes que o site necessita apresentar.
 
 **4º Dia:** Neste último dia do desafio, focaria no acabamento, estética e retoques. Incluiria as cores faltantes e texturas, faria algumas pequenas artes e melhoraria algumas pequenas interações.
+
+## Conclusão
+
+
