@@ -10,7 +10,7 @@ Teste prático para trabalhar no site e sistemas da empresa Kalunga, varejista e
 * 🍏 Aplicar boas técnicas de layout responsivo e usabilidade.
 * 🍏 Seguir a orientação das dimensões dos blocos para desktop e mobile, descritas pelo empregador.
 * 🍏 **Referências:** Links de referências inclusos no arquivo.
-* 😫 **Entrega:** 5º dia corrido pela manhã (4 dias/ 4 noites para execução).
+* 🔥 **Entrega:** 5º dia corrido pela manhã (4 dias/ 4 noites para execução).
 
 ## A Execução
 
@@ -35,4 +35,4 @@ Deixar para fazer o HTML no último dia, realmente, não funciona. Então, se eu
 
 É duro ter que deixar nossos projetos pessoais de lado para gastar um tempão do nosso tempo e energia para realizar um teste da qual haverá 50% de chances de ser descartado pelo empregador. Mas no final, o que vale é que testes de empresas não deixam de ser uma espécie de treinamento para nós mesmos, pois mexem mesmo com a nossa capacidade de entrega, de solucionar problemas, de criar e raciocinar logicamente com certa agilidade e autoconfiança.
 
-Se você for aprovado, parabéns, o trabalho é seu, na maioria dos casos! Mas se você não for, fique com ele em seu portfólio, com a experiência e o aprendizado sobre como fazer melhor da próxima vez, como foi o meu caso! 😫
+Se você for aprovado, parabéns, o trabalho é seu, na maioria dos casos 🏖️! Mas se você não for, fique com ele em seu portfólio, com a experiência e o aprendizado sobre como fazer melhor da próxima vez, como foi o meu caso! 😫
