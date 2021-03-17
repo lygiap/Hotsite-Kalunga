@@ -25,3 +25,7 @@ Deixar para fazer o HTML no último dia, realmente, não funciona. Então, se eu
 **2º Dia/ Parte 1:** Começaria o dia organizando as informações que esboçei no dia anterior, projetando tudo em um wireframe, sem delongas, já separando esse wireframe nas 2 versões desktop e mobile, dentro daquelas dimensões de blocos conforme passado pelo empregador.
 
 **2º Dia/ Parte 2:** Com os wireframes projetados, constando toda a informação que necessito, o próximo passo é começar a construir todo o esqueleto desse HTML, incluindo as media queries, ou seja, as regras e declarações que farão minha página ficar responsiva.
+
+**3º Dia/ Parte 1:** Finalizaria todo o esqueleto do hotsite nas 2 versões desktop e mobile, para começar a receber os acabamentos.
+
+**3º Dia/ Parte 2:** 
