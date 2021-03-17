@@ -9,10 +9,11 @@ Teste prático para trabalhar no site e sistemas da empresa Kalunga, varejista e
 * Utilizar recursos como HTML5, CSS3, JavaScript/ JQuery.
 * Aplicar boas técnicas de layout responsivo e usabilidade.
 
-* Referências: Os links estavam inclusos no arquivo.
-* Entrega: No 5º dia corrido pela manhã.
+* **Referências:** Links inclusos no arquivo.
+* **Entrega:** 5º dia corrido pela manhã.
 
 ## A Execução
 
-Na teoria é um desafio pensar em criar uma direção de arte para uma campanha que você nem sabe qual pode ser.
-Na prática, não seria um desafio tão complexo se você ligar o modo HTML first!
+Pra começar, é um desafio pensar em criar uma direção de arte para uma campanha que você nem sabe qual pode ser, e ainda ter tempo para criar o HTML responsivo dessa página!
+
+Na prática, não seria um desafio tão complexo se você ligar o modo HTML first! E esse é que era o ponto-chave desse desafio.
