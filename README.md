@@ -4,13 +4,13 @@ Teste prático para trabalhar no site e sistemas da empresa Kalunga, varejista e
 
 ## O Desafio
 
-* Criar uma campanha, com identidade visual e logotipo, para uma data comemorativa ou campanha sazonal do varejo, de tema livre.
-* Aplicar essa identidade na criação de uma landing page para a campanha.
-* Utilizar recursos como HTML5, CSS3, JavaScript/ JQuery.
-* Aplicar boas técnicas de layout responsivo e usabilidade.
-* Seguir a orientação das dimensões dos blocos para desktop e mobile, descritas pelo empregador.
-* **Referências:** Links de referências inclusos no arquivo.
-* **Entrega:** 5º dia corrido pela manhã (4 dias/ 4 noites para execução).
+{c:green}[fa=check-circle /]{/c} Criar uma campanha, com identidade visual e logotipo, para uma data comemorativa ou campanha sazonal do varejo, de tema livre.
+{c:green}[fa=check-circle /]{/c} Aplicar essa identidade na criação de uma landing page para a campanha.
+{c:green}[fa=check-circle /]{/c} Utilizar recursos como HTML5, CSS3, JavaScript/ JQuery.
+{c:green}[fa=check-circle /]{/c} Aplicar boas técnicas de layout responsivo e usabilidade.
+{c:green}[fa=check-circle /]{/c} Seguir a orientação das dimensões dos blocos para desktop e mobile, descritas pelo empregador.
+{c:green}[fa=check-circle /]{/c} **Referências:** Links de referências inclusos no arquivo.
+{c:red}[fa=times-circle /]{/c} **Entrega:** 5º dia corrido pela manhã (4 dias/ 4 noites para execução).
 
 ## A Execução
 
