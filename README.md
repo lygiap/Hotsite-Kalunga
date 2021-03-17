@@ -26,6 +26,8 @@ Deixar para fazer o HTML no último dia, realmente, não funciona. Então, se eu
 
 **2º Dia/ Parte 2:** Com os wireframes projetados, constando toda a informação que necessito, o próximo passo é começar a construir todo o esqueleto desse HTML, incluindo as media queries, ou seja, as regras e declarações que farão minha página ficar responsiva.
 
-**3º Dia/ Parte 1:** Finalizaria todo o esqueleto do hotsite nas 2 versões desktop e mobile, para começar a receber os acabamentos.
+**3º Dia/ Parte 1:** Finalizaria todo o esqueleto/ interações principais do hotsite nas 2 versões desktop e mobile, para começar a receber os acabamentos.
 
-**3º Dia/ Parte 2:** 
+**3º Dia/ Parte 2:** Incluiria o logo e todas as imagens necessárias na página e, também, focaria nas informações de texto/ fontes que o site necessita apresentar.
+
+**4º Dia:** Neste último dia do desafio, focaria no acabamento, estética e retoques. Incluiria as cores e texturas, faria algumas pequenas artes e melhoraria algumas pequenas interações.
