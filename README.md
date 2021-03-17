@@ -33,4 +33,8 @@ Deixar para fazer o HTML no último dia, realmente, não funciona. Então, se eu
 
 ## Conclusão
 
+É duro ter que deixar nossos projetos pessoais de lado para gastar um tempão do nosso tempo e energia para realizar um teste da qual haverá 50% de chances de ser descartado pelo empregador. Mas no final, o que vale é que testes de empresas não deixam de ser uma espécie de treinamento para si próprio, pois mexem mesmo com a nossa capacidade de entrega, de solucionar problemas, de criar e raciocinar logicamente com certa agilidade e autoconfiança.
+
+Tudo isso nos fornece experiência e aprendizado sobre como fazer melhor da próxima vez, se caso você não passar no teste.
+
 
