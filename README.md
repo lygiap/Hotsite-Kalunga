@@ -17,3 +17,5 @@ Teste prático para trabalhar no site e sistemas da empresa Kalunga, varejista e
 Pra começar, é um desafio pensar em criar uma direção de arte para uma campanha que você nem sabe qual pode ser, e ainda ter tempo para criar o HTML responsivo dessa página!
 
 Na prática, não seria um desafio tão complexo se você ligar o modo HTML first! E esse é que era o ponto-chave desse desafio.
+Deixar para fazer o HTML no último dia, realmente, não funciona. Então, se eu refizesse o teste, como dividiria o meu tempo?
+
